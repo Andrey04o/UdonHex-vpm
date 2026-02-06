@@ -38,6 +38,8 @@ jobs:
       # Checkout Local Repository
       - name: Checkout Local Repository
         uses: actions/checkout@v4
+        with:
+          submodules: recursive
 
       # Checkout Automation Repository without removing prior checkouts
       - name: Checkout Automation Repository
