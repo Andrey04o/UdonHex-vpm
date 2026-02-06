@@ -1,0 +1,3 @@
+[submodule "Packages/com.andrey04o.udonhex"]
+	path = Packages/com.andrey04o.udonhex
+	url = git@github.com:Andrey04o/UdonHex.git
